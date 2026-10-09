@@ -70,6 +70,24 @@ ecommerce-sales-analysis/
 
 These findings are preliminary and will be refined after final validation of returns, cancellations, and unusual transactions.
 
+## Visualizations
+
+The project includes the following charts generated using Matplotlib:
+
+- **Monthly Gross Sales:** compares gross sales across months and highlights seasonal patterns.
+- **Top 10 Merchandise Descriptions by Gross Sales:** ranks merchandise descriptions after excluding selected postage and manual-charge entries.
+- **Top 10 Countries by Gross Sales:** compares gross sales across countries.
+
+The charts are available in the `visualization/` directory.
+
+## Limitations
+
+- The dataset contains cancellations, returns, missing customer IDs, and unusual transaction descriptions.
+- Gross sales are calculated from transactions with positive quantities and positive unit prices, excluding invoices marked as cancellations.
+- Some non-merchandise charges may remain in the analysis.
+- December 2011 contains incomplete monthly data.
+- Gross sales should not be interpreted as net revenue or profit.
+
 ## How to Run the Project
 
 1. Clone or download this repository.
